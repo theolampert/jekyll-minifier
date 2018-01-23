@@ -50,7 +50,7 @@ module Jekyll
 
     def output_js(path, content)
       compressed = Uglifier.new
-      output_file(path, compressed.compile(content))
+      output_file(path, compressed.compile(content, harmony: true))
     end
 
     def output_css(path, content)

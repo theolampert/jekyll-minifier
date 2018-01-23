@@ -27,7 +27,7 @@ Gem::Specification.new do |gem|
   end
 
   gem.add_dependency "jekyll", "~> 3.5"
-  gem.add_dependency "uglifier", "~> 3.2"
+  gem.add_dependency "uglifier", "~> 4.1"
   gem.add_dependency "htmlcompressor", "~> 0.3"
   gem.add_dependency "cssminify2", "~> 2.0"
 
